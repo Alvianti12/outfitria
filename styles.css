@@ -1,0 +1,255 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align:center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Container styles */
+.category {
+    display: flex; /* Menggunakan Flexbox untuk menyusun elemen dalam satu baris */
+    justify-content: flex-start; /* Menyusun elemen dari kiri ke kanan */
+    flex-wrap: nowrap; /* Mencegah elemen membungkus ke baris berikutnya */
+    overflow-x: auto; /* Menambahkan scroll horizontal jika elemen melebihi lebar kontainer */
+}
+
+/* Category item styles */
+.category div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px; /* Margin di antara item */
+    text-align: center;
+    flex: 0 0 auto; /* Mengatur item agar tidak tumbuh atau menyusut */
+    width: 200px; /* Mengatur lebar tetap untuk setiap item */
+}
+
+/* Gambar - Ukuran diubah di sini */
+.category img {
+    width: 100%; /* Mengatur lebar gambar menjadi 100% dari kontainer */
+    height: auto; /* Tinggi disesuaikan secara otomatis untuk menjaga rasio aspek */
+    border-radius: 5px; /* Menambahkan radius sudut pada gambar */
+}
+.category h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.category p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* About page styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+section p {
+    font-size: 1em;
+    color: #555;
+}
+/* Home page styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.category {
+    display: flex; /* Menggunakan Flexbox untuk menyusun elemen dalam satu baris */
+    justify-content: space-between; /* Menyebar elemen dengan jarak yang sama */
+    flex-wrap: wrap; /* Membungkus elemen ke baris berikutnya jika tidak muat */
+}
+
+.category div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px; /* Margin di antara item */
+    text-align: center;
+    flex
+
+    /* Our Product page styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Category styles */
+.category {
+    display: flex; /* Menggunakan Flexbox untuk menyusun elemen dalam satu baris */
+    justify-content: space-between; /* Menyebar elemen dengan jarak yang sama */
+    flex-wrap: wrap; /* Membungkus elemen ke baris berikutnya jika tidak muat */
+}
+
+/* Category item styles */
+.category div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px; /* Margin di antara item */
+    text-align: center;
+    flex: 1 1 calc(25% - 20px); /* 4 item per baris dengan margin */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Gambar - Ukuran diubah di sini */
+.category img {
+    width: 100%; /* Mengatur lebar gambar menjadi 100% dari kontainer */
+    height: auto; /* Tinggi disesuaikan secara otomatis untuk menjaga rasio aspek */
+    border-radius: 5px; /* Menambahkan radius sudut pada gambar */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
